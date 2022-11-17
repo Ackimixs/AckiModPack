@@ -1,0 +1,12 @@
+
+["Star Wars Planets Config"]
+	#Should the menu need to be change ?
+	#Default = true (Boolean)
+	#
+	"Custom Screen" = false
+	#Which Menu do you want?
+	# Star = 1
+	#Planet = 2
+	#Default = 2 (1-2)
+	"Custom Screen number" = 2
+

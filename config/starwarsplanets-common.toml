@@ -1,0 +1,6 @@
+
+["Star Wars Planets Config"]
+	#What should be the name of the Star Wars Galaxy. I hope you will don't touch this part of the config^^
+	#Default = Starwarus (String)
+	"Galaxy Name" = "Starwarus"
+
