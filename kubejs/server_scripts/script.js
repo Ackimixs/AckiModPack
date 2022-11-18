@@ -342,6 +342,32 @@ minecraftShappedRecipe(["ABC", "BDB", "EFG"],
   ], 300, 'upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot', 1)
 
   
+  minecraftShappedRecipe([" A ", "ABA", " A "],
+  
+  {
+    "A": {
+      "item": "kubejs:dragon_essence"
+      
+    },
+    "B": {
+      "tag": 'forge:eggs'
+    }
+  },
+  {"item": 'minecraft:dragon_egg'}
+  )
+
+  minecraftShappedRecipe([" A ", "ABA", " A "],
+    {
+      "A": {
+        "item": "kubejs:dragon_essence"
+      },
+      "B": {
+        "tag": 'forge:heads'
+      }
+    },
+    {"item": 'minecraft:dragon_head'}
+  )
+
   function dissolutionChamber(inputFluid, input, processingTime, output, count) {
     event.custom({
       "type": "industrialforegoing:dissolution_chamber",

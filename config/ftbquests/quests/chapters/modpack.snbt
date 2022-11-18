@@ -1,0 +1,43 @@
+{
+	id: "50609DD9690872B2"
+	group: ""
+	order_index: 0
+	filename: "modpack"
+	title: "Modpack"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: 0.5d
+			id: "57F9C172BD07DC5A"
+			tasks: [{
+				id: "60D428119EB102F5"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["57F9C172BD07DC5A"]
+			dependency_requirement: "one_completed"
+			id: "0031F6ECE0E85D14"
+			tasks: [{
+				id: "2D5F2E8D37588D03"
+				type: "checkmark"
+				title: "test"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["57F9C172BD07DC5A"]
+			id: "1209F61E62EC2C66"
+			tasks: [{
+				id: "018016D5AD741773"
+				type: "item"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+			}]
+		}
+	]
+}

@@ -107,7 +107,7 @@ onEvent('recipes', event => {
             "results": [
                 output
             ],
-            "loops": 10,
+            "loops": 6,
         })
     }
 
@@ -154,11 +154,11 @@ onEvent('recipes', event => {
                 "item": 'powah:energy_cell_creative'
             },
             "G": {
-                "item": 'upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot'
+                "item": 'mekanism:creative_energy_cube'
             },
             "H": Item.of('tconstruct:creative_slot', '{slot:"upgrades"}').toJson(),
             "F": {
-                "item": 'mekanism:creative_energy_cube'
+                "item": 'upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot'
             }
         },
         "result": {"item": 'upgradednetherite_creative:creative_upgraded_netherite_ingot'},
@@ -240,7 +240,27 @@ onEvent('recipes', event => {
                 "item": 'functionalstorage:creative_vending_upgrade'
             }
         ],
-        "loops": 2,
+        "loops": 1,
     })
 
+    let parts = ['boots', 'leggings', 'chestplate', 'helmet', 'sword', 'pickaxe', 'shovel', 'bow', 'axe', 'horse_armor']
+
+    for (let part of parts) {
+        creativeItem(part)
+    }
+
+    function creativeItem(name) {
+        event.custom({
+            "type": "minecraft:smithing",
+            "base": {
+              "item": `upgradednetherite_ultimate:ultimate_upgraded_netherite_${name}`
+            },
+            "addition": {
+              "item": 'upgradednetherite_creative:creative_upgraded_netherite_ingot'
+            },
+            "result": {
+              "item": `upgradednetherite_creative:creative_upgraded_netherite_${name}`
+            }
+        })
+    }
 })

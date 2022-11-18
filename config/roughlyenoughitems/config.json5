@@ -7,15 +7,7 @@
 			"{id:\"ftbchunks:chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map\",\"x\":310,\"click\":\"ftbchunks:open_gui\"}',type:\"ftblibrary:sidebar_button\"}",
 			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:time\"}",
 			"{type:\"roughlyenoughitems:weather\",weather:\"NOT_SET\"}",
-			"{data:{Count:1b,id:\"chickens:chicken_item\",tag:{ChickenType:{id:\"chickens:pig_iron_chicken\"}},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"chickens:chicken_item\",tag:{ChickenType:{id:\"chickens:cfouche_chicken\"}},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"powah:dielectric_paste\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:redstone\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"botania:mana_powder\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Amount:1000,FluidName:\"tinkers_reforged:molten_cyber_steel\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"chickens:chicken_item\",tag:{ChickenType:{id:\"chickens:netherite_chicken\"}},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"chickens:chicken_item\",tag:{gain:1,growth:1,strength:1},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Amount:1000,FluidName:\"mekanism:ethene\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{Count:1b,id:\"chickens:chicken_item\",tag:{ChickenType:{id:\"chickens:cfouche_chicken\"}},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		"hiddenFavorites": [],
 		"displayHistory": [],

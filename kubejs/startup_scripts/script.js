@@ -11,6 +11,7 @@ onEvent('item.registry', event => {
 	event.create("yin_netherite").displayName("Yin Netherite")
 	event.create("yang_netherite").displayName("Yang Netherite")
 	event.create("uncompleted_creative_upgrade").displayName("Uncompleted Creative Upgrade")
+	event.create('dragon_essence').displayName('Dragon Essence')
 })
 
 onEvent('block.registry', event => {
