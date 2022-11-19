@@ -127,6 +127,40 @@ onEvent('recipes', event => {
 
     ]
 
+    //Ultimate chicken
+    event.custom({
+        "type": "create:mechanical_crafting",
+        "pattern": ["ABCBA", "DEEED", "FEGEF", "HEEEH", "CHFHC"],
+        "key": {
+            "A": {
+                "item": 'kubejs:living_chicken'
+            },
+            "B": {
+                "item": 'ae2:cell_component_256k'
+            },
+            "C": {
+                "item": 'rftoolsdim:legendary_essence'
+            },
+            "D": {
+                "item": 'pipez:ultimate_upgrade'
+            },
+            "E": {
+                "item": 'upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot'
+            },
+            "F": {
+                "item": 'mekanism:reprocessed_fissile_fragment'
+            },
+            "G": {
+                "tag": 'forge:pellets/antimatter'
+            },
+            "H": {
+                "item": 'kubejs:super_heated_block'
+            }
+        },
+        "result": { "item": 'chickens:chicken_item', "nbt": `{ChickenType:{id:"chickens:ultimate_chicken"}}` },
+        "acceptMirrored": true
+    })
+
     for (let chickenData of chcikensList) {
 
         sequencedAssemblyChicken(
@@ -198,7 +232,7 @@ onEvent('recipes', event => {
                             "item": "kubejs:uncompleted_chicken"
                         },
                         {
-                            "fluid": 'mekanismgenerators:fusion_fuel',
+                            "fluid": 'tconstruct:blazing_blood',
                             "nbt": {},
                             "amount": 500
                         }

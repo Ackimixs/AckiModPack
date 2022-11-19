@@ -16,6 +16,8 @@ onEvent('recipes', event => {
 
   event.remove({ output: 'powah:dielectric_paste' })
   event.remove({input: 'minecraft:redstone', type: 'botania:mana_infusion'})
+  
+  event.remove({ output: 'chickens:colored_egg' })
 
   event.remove({ output: 'angelring:resonant_angel_ring' })
   event.remove({ output: 'angelring:reinforced_angel_ring' })
@@ -99,6 +101,14 @@ onEvent('recipes', event => {
     'tinkers_reforged:molten_duralumin', 80,
     'rftoolsbase:machine_frame',
     70    
+  )
+
+  tinkerBassin(
+    {"item": 'mekanism:superheating_element'},
+    true,
+    'tconstruct:blazing_blood', 1200,
+    'kubejs:super_heated_block',
+    100
   )
   
   

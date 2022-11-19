@@ -6,6 +6,7 @@ onEvent('rei.hide.items', event => {
 	event.hide(/chickens:spawn_egg/)
 	event.hide('kubejs:uncompleted_chicken')
 	event.hide('kubejs:uncompleted_creative_upgrade')
+	event.hide('chickens:colored_egg')
 
 	event.hide('beyond_earth:steel_ingot')
 	event.hide('beyond_earth:steel_block')

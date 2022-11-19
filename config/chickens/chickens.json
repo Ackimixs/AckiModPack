@@ -1632,5 +1632,19 @@
     "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
+  },
+  "chickens:ultimate_chicken": {
+    "name": "ultimate_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+    },
+    "drop_item": {
+      "itemID": "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
   }
 }

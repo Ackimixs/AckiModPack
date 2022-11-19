@@ -7,7 +7,7 @@ onEvent('recipes', event => {
     function mekaCreative(item) {
         event.custom({
             "type": "create:mechanical_crafting",
-            "pattern": ["AABAA", "ACCCA", "DCECD", "ACCCA", "AABAA"],
+            "pattern": ["AABAA", "ACCCA", "DCECD", "ACCCA", "AAFAA"],
             "key": {
                 "A": {
                     "item": `mekanism:ultimate_${item}`
@@ -24,6 +24,7 @@ onEvent('recipes', event => {
                 "E": {
                     "item": 'upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot'
                 },
+                "F": Item.of('tconstruct:creative_slot', '{slot:"upgrades"}').toJson()
             },
             "result": {"item": `mekanism:creative_${item}`},
             "acceptMirrored": true
@@ -261,6 +262,61 @@ onEvent('recipes', event => {
             "result": {
               "item": `upgradednetherite_creative:creative_upgraded_netherite_${name}`
             }
+        })
+    }
+
+    ["helmet", "chestplate", "leggings", "boots"].forEach(part => ultimateArmor(part));
+
+    function ultimateArmor(name) {
+
+        event.remove({output: `upgradednetherite_ultimate:ultimate_upgraded_netherite_${name}`});
+
+        event.custom({
+            "type": "minecraft:crafting_shaped",
+            "pattern": [" A ", "BCD", " E "],
+            "key": {
+                "A": {
+                    "tag": `upgradednetherite:upgraded_netherite_${name}`
+                },
+                "B": {
+                    "item": `mekanism:mekasuit_${name === "chestplate" ? "bodyarmor" : name === "leggings" ? "pants" : name}`
+                },
+                "C": {
+                    "item": 'upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot'
+                },
+                "D": {
+                    "item": `botania:terrasteel_${name}`
+                },
+                "E": {
+                    "item": `bloodmagic:living${name === "chestplate" ? "plate" : name }`
+                }
+            },
+            "result": {
+                "item": `upgradednetherite_ultimate:ultimate_upgraded_netherite_${name}`
+            }
+        })
+    }
+
+    tinkerUp([{"tag": 'forge:nether_stars'}, {"tag": 'forge:nether_stars'}, {"tag": 'forge:nether_stars'}, {"tag": 'forge:nether_stars'}], Item.of('tconstruct:creative_slot', '{slot:"abilities"}').toJson())
+    tinkerUp([{"item": 'upgradednetherite:wither_upgraded_netherite_chestplate'}, {"item": 'upgradednetherite:water_upgraded_netherite_chestplate'}, {"item": 'upgradednetherite:poison_upgraded_netherite_chestplate'}, {"item": 'upgradednetherite:phantom_upgraded_netherite_chestplate'}], Item.of('tconstruct:creative_slot', '{slot:"defense"}').toJson())
+    tinkerUp([{"tag": 'forge:gems/emerald'}, {"tag": 'forge:ingots/cyber_steel'}, {"tag": 'forge:ingots/cyber_steel'}, {"item": 'bloodmagic:demonslate'}], Item.of('tconstruct:creative_slot', '{slot:"souls"}').toJson())
+
+
+    function tinkerUp(item, result) {
+        event.custom({
+            "type": "minecraft:crafting_shaped",
+            "pattern": ["ABA", "CDE", "AFA"],
+            "key": {
+                "A": {
+                    "item": "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+                },
+                "B": item[0],
+                "C": item[1],
+                "D": Item.of('tconstruct:creative_slot', '{slot:"upgrades"}').toJson(),
+                "E": item[2],
+                "F": item[3]
+            },
+            "result": result,
         })
     }
 })

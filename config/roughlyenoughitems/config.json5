@@ -7,7 +7,10 @@
 			"{id:\"ftbchunks:chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map\",\"x\":310,\"click\":\"ftbchunks:open_gui\"}',type:\"ftblibrary:sidebar_button\"}",
 			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:time\"}",
 			"{type:\"roughlyenoughitems:weather\",weather:\"NOT_SET\"}",
-			"{data:{Count:1b,id:\"chickens:chicken_item\",tag:{ChickenType:{id:\"chickens:cfouche_chicken\"}},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{Count:1b,id:\"chickens:chicken_item\",tag:{ChickenType:{id:\"chickens:cfouche_chicken\"}},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"tinkers_reforged:cyber_steel_ingot\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"upgradednetherite_items:gold_upgraded_netherite_totem\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"upgradednetherite_items:ultimate_upgraded_netherite_totem\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		"hiddenFavorites": [],
 		"displayHistory": [],
