@@ -1646,5 +1646,33 @@
     "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
+  },
+  "chickens:dragon_chicken": {
+    "name": "dragon_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "kubejs:dragon_essence"
+    },
+    "drop_item": {
+      "itemID": "kubejs:dragon_essence"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:nether_star_chicken": {
+    "name": "nether_star_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:nether_star"
+    },
+    "drop_item": {
+      "itemID": "minecraft:nether_star"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
   }
 }

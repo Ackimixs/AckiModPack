@@ -1,0 +1,351 @@
+{
+	id: "5487AD762359BCE5"
+	group: ""
+	order_index: 6
+	filename: "creative"
+	title: "Creative"
+	icon: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.5d
+			id: "2165163A8A91E3B8"
+			tasks: [{
+				id: "39B407A11C371EA8"
+				type: "item"
+				item: "kubejs:yin_netherite"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			id: "4D364F15B71A7EC9"
+			tasks: [{
+				id: "77FE8836F3E5B623"
+				type: "item"
+				item: "kubejs:yang_netherite"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: [
+				"2165163A8A91E3B8"
+				"4D364F15B71A7EC9"
+			]
+			id: "674F1CD5EB47D615"
+			tasks: [{
+				id: "4E77D2138DD37194"
+				type: "item"
+				item: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["674F1CD5EB47D615"]
+			id: "0EFC5757081554AB"
+			tasks: [{
+				id: "5150AA2903E42DDB"
+				type: "item"
+				item: {
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["674F1CD5EB47D615"]
+			id: "6600CC92F5196786"
+			tasks: [{
+				id: "0E4189746FDA59D9"
+				type: "item"
+				item: {
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["674F1CD5EB47D615"]
+			id: "570386F5BBFDC9F1"
+			tasks: [{
+				id: "57A21EDAD5E559E3"
+				type: "item"
+				item: {
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			dependencies: ["674F1CD5EB47D615"]
+			id: "1C01E4992109FDC0"
+			tasks: [{
+				id: "3038C14D72516DBA"
+				type: "item"
+				item: {
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["674F1CD5EB47D615"]
+			id: "2A7871E7DBE9F70F"
+			tasks: [{
+				id: "2F28A0EA6A30F0AA"
+				type: "item"
+				item: {
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["674F1CD5EB47D615"]
+			id: "215951E342FA7416"
+			tasks: [{
+				id: "73078E73280AF9E9"
+				type: "item"
+				item: {
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["674F1CD5EB47D615"]
+			id: "53D3CBB225D2AD85"
+			tasks: [{
+				id: "460E9368CF111D1E"
+				type: "item"
+				item: {
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			dependencies: ["674F1CD5EB47D615"]
+			id: "4B3F68477128F612"
+			tasks: [{
+				id: "4134912E4F2AFF5F"
+				type: "item"
+				item: "upgradednetherite_items:ultimate_upgraded_netherite_totem"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["674F1CD5EB47D615"]
+			id: "04FF09159F46B786"
+			tasks: [{
+				id: "307E4AB760DE5BE3"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "upgrades"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["04FF09159F46B786"]
+			id: "23626D4BA78E365A"
+			tasks: [{
+				id: "6256281B193F19E2"
+				type: "item"
+				item: "powah:energy_cell_creative"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			dependencies: ["04FF09159F46B786"]
+			id: "4E9F288585425A21"
+			tasks: [{
+				id: "04D12F8CEDA0A1A9"
+				type: "item"
+				item: "ae2:creative_item_cell"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["04FF09159F46B786"]
+			id: "3F0807F57D7C85FB"
+			tasks: [{
+				id: "23F8153F27042D22"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "defense"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["04FF09159F46B786"]
+			id: "4A45F07E4797F110"
+			tasks: [{
+				id: "6DB26B84EB8D3515"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "abilities"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["04FF09159F46B786"]
+			id: "13A7E80E189374CA"
+			tasks: [{
+				id: "491077058A844372"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "souls"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["04FF09159F46B786"]
+			id: "51E5FC741505DFFD"
+			tasks: [{
+				id: "2BB852F7929012AE"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["178CA81B8F395067"]
+			id: "015B1878D9A2BC6A"
+			tasks: [{
+				id: "680A190E751DC016"
+				type: "item"
+				item: "functionalstorage:creative_vending_upgrade"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.5d
+			dependencies: ["04FF09159F46B786"]
+			id: "4302F31F7E5107A7"
+			tasks: [{
+				id: "69EE4652C504671E"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			dependencies: ["04FF09159F46B786"]
+			id: "60F723F7E567D274"
+			tasks: [{
+				id: "46FDA31AB89456A7"
+				type: "item"
+				item: "pipez:infinity_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["674F1CD5EB47D615"]
+			id: "178CA81B8F395067"
+			tasks: [{
+				id: "1C426D88F8ABF798"
+				type: "item"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			id: "19E53E23EC2FE015"
+			tasks: [{
+				id: "0332C5A2E8DB24B3"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			id: "6D34DFE42227CD32"
+			tasks: [{
+				id: "6805B9891044669B"
+				type: "item"
+				item: "mekanism:creative_energy_cube"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			id: "6C6D737FA068F4A2"
+			tasks: [{
+				id: "4C954FFB0CA256F0"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+		}
+	]
+}

@@ -3,40 +3,43 @@
 	group: ""
 	order_index: 0
 	filename: "modpack"
-	title: "Modpack"
+	title: "The begining"
+	icon: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.5d
-			y: 0.5d
-			id: "57F9C172BD07DC5A"
-			tasks: [{
-				id: "60D428119EB102F5"
-				type: "checkmark"
-			}]
-		}
-		{
 			x: 1.5d
-			y: 2.0d
-			dependencies: ["57F9C172BD07DC5A"]
-			dependency_requirement: "one_completed"
-			id: "0031F6ECE0E85D14"
+			y: 0.0d
+			description: ["Ackimixs present AckISEN, a modpack create by acki for ISEN"]
+			id: "518E765BE50AE8DA"
 			tasks: [{
-				id: "2D5F2E8D37588D03"
+				id: "65471AD8DCD91B58"
 				type: "checkmark"
-				title: "test"
+				title: "AckISEN"
+			}]
+			rewards: [{
+				id: "06AAE304BE26283C"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
 		}
 		{
-			x: -0.5d
-			y: 2.0d
-			dependencies: ["57F9C172BD07DC5A"]
-			id: "1209F61E62EC2C66"
+			x: 3.0d
+			y: 0.0d
+			description: ["Check this to activate the quest system"]
+			dependencies: ["518E765BE50AE8DA"]
+			id: "0C2873C4B8B9BD4E"
 			tasks: [{
-				id: "018016D5AD741773"
-				type: "item"
-				item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+				id: "63A46D3033DE851C"
+				type: "checkmark"
+				title: "Quest"
+			}]
+			rewards: [{
+				id: "4F90902E002C5AF0"
+				type: "command"
+				command: "/say Hi, @p!"
+				player_command: false
 			}]
 		}
 	]

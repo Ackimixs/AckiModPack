@@ -35,7 +35,7 @@
   "entity.chickens.crusteel_chicken": "Crusteel Chicken",
   "entity.chickens.yokel_chicken": "Yokel Chicken",
   "entity.chickens.wavy_chicken": "Wavy Chicken",
-  "entity.chickens.boalian_chicken": "Baolian Chicken",
+  "entity.chickens.baolian_chicken": "Baolian Chicken",
   "entity.chickens.galu_chicken": "Galu Chicken",
   "entity.chickens.magma_steel_chicken": "Magma Steel Chicken",
   "entity.chickens.cyber_steel_chicken": "Cyber Steel Chicken",
@@ -68,5 +68,7 @@
   "entity.chickens.niotic_crystal_chicken": "Niotic Crystal Chicken",
   "entity.chickens.nitro_crystal_chicken": "Nitro Crystal Chicken",
   "entity.chickens.pink_slime_chicken": "Pink Slime Chicken",
-  "entity.chickens.ultimate_chicken": "Ultimate Chicken"
+  "entity.chickens.ultimate_chicken": "Ultimate Chicken",
+  "entity.chickens.dragon_chicken": "Dragon Egg Chicken",
+  "entity.chickens.nether_star_chicken": "Nether Star Chicken"
 }

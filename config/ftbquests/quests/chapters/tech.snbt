@@ -1,0 +1,11 @@
+{
+	id: "0279D126289D8085"
+	group: ""
+	order_index: 4
+	filename: "tech"
+	title: "Tech"
+	icon: "powah:uraninite"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

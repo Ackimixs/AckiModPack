@@ -1,0 +1,1364 @@
+{
+	id: "6A861D41BFAF5232"
+	group: ""
+	order_index: 1
+	filename: "storage"
+	title: "Storage"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+		Count: 1b
+		tag: {
+			inventorySlots: 27
+			upgradeSlots: 1
+			contentsUuid: [I;
+				-791353276
+				-1520546554
+				-1322624567
+				2129586065
+			]
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -9.5d
+			y: -2.5d
+			id: "1500B113E6168EDC"
+			tasks: [{
+				id: "0064E9D81B92FC08"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 27
+						upgradeSlots: 1
+						contentsUuid: [I;
+							-791353276
+							-1520546554
+							-1322624567
+							2129586065
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: -1.5d
+			dependencies: ["1500B113E6168EDC"]
+			dependency_requirement: "one_completed"
+			id: "10C0A76681FD4403"
+			tasks: [{
+				id: "72EF87CDDBDC72DE"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:iron_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 54
+						upgradeSlots: 2
+						contentsUuid: [I;
+							-335220429
+							70600338
+							-1617325845
+							-2007951805
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			dependencies: ["10C0A76681FD4403"]
+			id: "14FE57E851238188"
+			tasks: [{
+				id: "5FC2E8E3ABD94442"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:gold_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 81
+						upgradeSlots: 3
+						contentsUuid: [I;
+							-1319304394
+							-546419946
+							-1909833472
+							1003337017
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.5d
+			dependencies: ["14FE57E851238188"]
+			id: "0B2C8A4B58504669"
+			tasks: [{
+				id: "1D365E2A2661C600"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:diamond_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 108
+						upgradeSlots: 5
+						contentsUuid: [I;
+							-868209932
+							-64009483
+							-1866467379
+							359801318
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 1.5d
+			dependencies: ["0B2C8A4B58504669"]
+			id: "765E67920F71C09E"
+			tasks: [{
+				id: "67BEF5B26947B3C7"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:netherite_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 120
+						upgradeSlots: 7
+						contentsUuid: [I;
+							546974320
+							-1769845960
+							-1132048789
+							297913891
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			id: "5C8083063305B97D"
+			tasks: [{
+				id: "73C18079BFA17CF5"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			dependencies: ["5C8083063305B97D"]
+			id: "61D381AFB82DF294"
+			tasks: [{
+				id: "2FF6922380A56ED3"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["61D381AFB82DF294"]
+			id: "12370045C9A46E14"
+			tasks: [{
+				id: "3C6E048875F28FD9"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			dependencies: ["12370045C9A46E14"]
+			id: "6159628BB861ADFD"
+			tasks: [{
+				id: "613A8BB12A80D3B0"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["6159628BB861ADFD"]
+			id: "74FD0176305BEFBD"
+			tasks: [{
+				id: "6F6779C6DB186926"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			dependencies: ["5C8083063305B97D"]
+			id: "70FF736D59781FE9"
+			tasks: [{
+				id: "3A1A374C0A23EC54"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:smelting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["70FF736D59781FE9"]
+			id: "1663915B0874341A"
+			tasks: [{
+				id: "468BFD53C96BD995"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:blasting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			dependencies: ["70FF736D59781FE9"]
+			id: "673655799EB4573F"
+			tasks: [{
+				id: "44C7101B29DE0B24"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:smoking_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			dependencies: ["673655799EB4573F"]
+			id: "2542EC3EA891011D"
+			tasks: [{
+				id: "1861BA249E65C99E"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:auto_smoking_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			dependencies: ["1663915B0874341A"]
+			id: "608C3EB00C1A59C2"
+			tasks: [{
+				id: "3A70C45390A808C9"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:auto_blasting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			dependencies: ["70FF736D59781FE9"]
+			id: "310EAF45BE43B6CA"
+			tasks: [{
+				id: "40F66EC31CB90270"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:auto_smelting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["5C8083063305B97D"]
+			id: "6BC67D8C0EC25C3B"
+			tasks: [{
+				id: "13784BB2C9390913"
+				type: "item"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["6BC67D8C0EC25C3B"]
+			id: "10FF6C8951F7B8DC"
+			tasks: [{
+				id: "7408D0A7E68695D8"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -2.5d
+			id: "12EB1D290DE13A5A"
+			tasks: [{
+				id: "3E05858018EAD9E6"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -1.5d
+			dependencies: ["12EB1D290DE13A5A"]
+			id: "79E7CFC7D32C7DE6"
+			tasks: [{
+				id: "5F15B7CFB9A392AA"
+				type: "item"
+				item: "sophisticatedstorage:iron_chest"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -0.5d
+			dependencies: ["79E7CFC7D32C7DE6"]
+			id: "039F10CA735B57D9"
+			tasks: [{
+				id: "0767CBACC97BA0E3"
+				type: "item"
+				item: "sophisticatedstorage:gold_chest"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 0.5d
+			dependencies: ["039F10CA735B57D9"]
+			id: "16866469954E6F5B"
+			tasks: [{
+				id: "40FE777F38423C32"
+				type: "item"
+				item: "sophisticatedstorage:diamond_chest"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 1.5d
+			dependencies: ["16866469954E6F5B"]
+			id: "46850ACFE6AFB76B"
+			tasks: [{
+				id: "1CBBE8B7AC437DB0"
+				type: "item"
+				item: "sophisticatedstorage:netherite_chest"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -2.5d
+			id: "5DCC204A4F4C87BC"
+			tasks: [{
+				id: "52045138194C1F90"
+				type: "item"
+				item: "sophisticatedstorage:shulker_box"
+			}]
+		}
+		{
+			x: -15.5d
+			y: -1.5d
+			dependencies: ["5DCC204A4F4C87BC"]
+			id: "04E37FDE0AF03A7F"
+			tasks: [{
+				id: "51B37D7624CE2937"
+				type: "item"
+				item: "sophisticatedstorage:iron_shulker_box"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -0.5d
+			dependencies: ["04E37FDE0AF03A7F"]
+			id: "5CDD2542F5E4AAB0"
+			tasks: [{
+				id: "665CB089011F32A4"
+				type: "item"
+				item: "sophisticatedstorage:gold_shulker_box"
+			}]
+		}
+		{
+			x: -15.5d
+			y: 0.5d
+			dependencies: ["5CDD2542F5E4AAB0"]
+			id: "4D4DB2E729A6A486"
+			tasks: [{
+				id: "114E110DA0F8EEBC"
+				type: "item"
+				item: "sophisticatedstorage:diamond_shulker_box"
+			}]
+		}
+		{
+			x: -14.5d
+			y: 1.5d
+			dependencies: ["4D4DB2E729A6A486"]
+			id: "033B393941122240"
+			tasks: [{
+				id: "0EE499D2AF5E0146"
+				type: "item"
+				item: "sophisticatedstorage:netherite_shulker_box"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -2.5d
+			id: "2DC6AD18B8BB2223"
+			tasks: [{
+				id: "5D16B98BB9E49E11"
+				type: "item"
+				item: "sophisticatedstorage:barrel"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -1.5d
+			dependencies: ["2DC6AD18B8BB2223"]
+			id: "3A60A6848DA1A92B"
+			tasks: [{
+				id: "055528339A590BD8"
+				type: "item"
+				item: "sophisticatedstorage:iron_barrel"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -0.5d
+			dependencies: ["3A60A6848DA1A92B"]
+			id: "7EDFB8A91D63D6A8"
+			tasks: [{
+				id: "0816E1B7493D2984"
+				type: "item"
+				item: "sophisticatedstorage:gold_barrel"
+			}]
+		}
+		{
+			x: -18.0d
+			y: 0.5d
+			dependencies: ["7EDFB8A91D63D6A8"]
+			id: "714BFF6570F4A79B"
+			tasks: [{
+				id: "2F90D2D633511BEC"
+				type: "item"
+				item: "sophisticatedstorage:diamond_barrel"
+			}]
+		}
+		{
+			x: -17.0d
+			y: 1.5d
+			dependencies: ["714BFF6570F4A79B"]
+			id: "19B4ED475CECCE98"
+			tasks: [{
+				id: "0E4BF85598C33C8C"
+				type: "item"
+				item: "sophisticatedstorage:netherite_barrel"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -7.5d
+			id: "05045FEA09CEC836"
+			tasks: [{
+				id: "7D24C57D3C6A7968"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -8.5d
+			dependencies: ["05045FEA09CEC836"]
+			id: "2BAC8E17A49C90FA"
+			tasks: [{
+				id: "2C7382E6BA992D53"
+				type: "item"
+				item: "ae2:sky_compass"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -8.5d
+			dependencies: ["2BAC8E17A49C90FA"]
+			id: "66C3A6E39F6E1254"
+			tasks: [{
+				id: "1B5B4699530EB86E"
+				type: "item"
+				item: "ae2:silicon_press"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -9.5d
+			dependencies: ["2BAC8E17A49C90FA"]
+			id: "148CB9BC928FEF07"
+			tasks: [{
+				id: "3E7826AA73B46311"
+				type: "item"
+				item: "ae2:calculation_processor_press"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -10.5d
+			dependencies: ["2BAC8E17A49C90FA"]
+			id: "14EB196D868E06D5"
+			tasks: [{
+				id: "3CABE2CEAF7BDBDD"
+				type: "item"
+				item: "ae2:engineering_processor_press"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -11.5d
+			dependencies: ["2BAC8E17A49C90FA"]
+			id: "6961C3C76DC8F6E6"
+			tasks: [{
+				id: "6A28369CE256304B"
+				type: "item"
+				item: "ae2:logic_processor_press"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -11.5d
+			dependencies: [
+				"6961C3C76DC8F6E6"
+				"0D9179F3555F8F67"
+			]
+			id: "3032975F370914B7"
+			tasks: [{
+				id: "50F48F5DCAC41B30"
+				type: "item"
+				item: "ae2:printed_logic_processor"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -11.5d
+			dependencies: [
+				"4AE1C3E308A64E53"
+				"3032975F370914B7"
+			]
+			id: "46B550C797F4F541"
+			tasks: [{
+				id: "2E67FD21315551C1"
+				type: "item"
+				item: "ae2:logic_processor"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -10.5d
+			dependencies: [
+				"14EB196D868E06D5"
+				"0D9179F3555F8F67"
+			]
+			id: "0A04A7047146C259"
+			tasks: [{
+				id: "70974F324DEF83BF"
+				type: "item"
+				item: "ae2:printed_engineering_processor"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -10.5d
+			dependencies: [
+				"4AE1C3E308A64E53"
+				"0A04A7047146C259"
+				"0177761AAF83A099"
+			]
+			id: "2FFC3B386A370259"
+			tasks: [{
+				id: "5BAAB1794CF1AB73"
+				type: "item"
+				item: "ae2:engineering_processor"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -9.5d
+			dependencies: [
+				"148CB9BC928FEF07"
+				"0D9179F3555F8F67"
+			]
+			id: "4AF94F9F6ED9B600"
+			tasks: [{
+				id: "41EFFEBE61E5DD77"
+				type: "item"
+				item: "ae2:printed_calculation_processor"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -9.5d
+			dependencies: [
+				"4AE1C3E308A64E53"
+				"4AF94F9F6ED9B600"
+			]
+			id: "1484863F3E6B0F6A"
+			tasks: [{
+				id: "65F8435AF919DA13"
+				type: "item"
+				item: "ae2:calculation_processor"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -8.5d
+			dependencies: [
+				"6FEEE4B54BE39F96"
+				"66C3A6E39F6E1254"
+			]
+			id: "4AE1C3E308A64E53"
+			tasks: [{
+				id: "7D53F1C0901EED01"
+				type: "item"
+				item: "ae2:printed_silicon"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -7.5d
+			dependencies: ["05045FEA09CEC836"]
+			id: "6FEEE4B54BE39F96"
+			tasks: [{
+				id: "32512385DAEC3520"
+				type: "item"
+				item: "ae2:silicon"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -8.5d
+			dependencies: ["05045FEA09CEC836"]
+			id: "210231A12D01F514"
+			tasks: [{
+				id: "37B9E6351DC55037"
+				type: "item"
+				item: "ae2:fluix_crystal"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -12.5d
+			id: "0D9179F3555F8F67"
+			tasks: [{
+				id: "48439D8130F5FB6B"
+				type: "item"
+				item: "ae2:inscriber"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -12.5d
+			dependencies: ["0D9179F3555F8F67"]
+			id: "49FAE00B9421F932"
+			tasks: [{
+				id: "3AA893DA3D0BC341"
+				type: "item"
+				item: "ae2things:advanced_inscriber"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -10.5d
+			dependencies: ["210231A12D01F514"]
+			id: "0177761AAF83A099"
+			tasks: [{
+				id: "534B2A03ECBDB647"
+				type: "item"
+				item: "ae2:controller"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -10.5d
+			dependencies: ["210231A12D01F514"]
+			id: "0493C718935791AA"
+			tasks: [{
+				id: "7EC3A94C247633D9"
+				type: "item"
+				item: "ae2:drive"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -9.5d
+			dependencies: ["210231A12D01F514"]
+			id: "7D405337BA015ACF"
+			tasks: [{
+				id: "7033FC8DAB8D552E"
+				type: "item"
+				item: "ae2:quartz_growth_accelerator"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -10.5d
+			dependencies: ["7D405337BA015ACF"]
+			id: "694C0348A4B32512"
+			tasks: [{
+				id: "5DE3EA6CB40BB1B2"
+				type: "item"
+				item: "ae2things:crystal_growth"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -14.0d
+			dependencies: ["05045FEA09CEC836"]
+			id: "69971514A660026F"
+			tasks: [{
+				id: "01E2AC6BA38F8699"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -15.0d
+			dependencies: ["69971514A660026F"]
+			id: "69D7B67789B7A09E"
+			tasks: [{
+				id: "190A7C16B4B23FF8"
+				type: "item"
+				item: "ae2:cell_component_4k"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -16.0d
+			dependencies: ["69D7B67789B7A09E"]
+			id: "52FE39810192E35B"
+			tasks: [{
+				id: "3F421CFD5544298F"
+				type: "item"
+				item: "ae2:cell_component_16k"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -17.0d
+			dependencies: ["52FE39810192E35B"]
+			id: "4523B7D6DF96BFD5"
+			tasks: [{
+				id: "4F1548267DA1A9C3"
+				type: "item"
+				item: "ae2:cell_component_64k"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -18.0d
+			dependencies: ["4523B7D6DF96BFD5"]
+			id: "4FE31792D47B9476"
+			tasks: [{
+				id: "64F5F3BCCD3BC3B1"
+				type: "item"
+				item: "ae2:cell_component_256k"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -14.0d
+			dependencies: ["69971514A660026F"]
+			id: "4064BA27074A8703"
+			tasks: [{
+				id: "733671EB7018AB12"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: -14.0d
+			dependencies: ["69971514A660026F"]
+			id: "43614EEF0E59B903"
+			tasks: [{
+				id: "7D75850DEECF70FF"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: -14.0d
+			dependencies: ["69971514A660026F"]
+			id: "4A600FEBAE2AA587"
+			tasks: [{
+				id: "5F857453DAAE02D5"
+				type: "item"
+				item: {
+					id: "ae2things:disk_drive_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -18.5d
+			y: -14.0d
+			dependencies: ["69971514A660026F"]
+			id: "34DC850731F46C1F"
+			tasks: [{
+				id: "707626B428E456F8"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: -15.0d
+			dependencies: [
+				"69D7B67789B7A09E"
+				"4064BA27074A8703"
+			]
+			id: "1B5111E5DCB5B850"
+			tasks: [{
+				id: "356712C857DE1C8A"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: -15.0d
+			dependencies: [
+				"69D7B67789B7A09E"
+				"43614EEF0E59B903"
+			]
+			id: "5E954EA01AFEADE0"
+			tasks: [{
+				id: "301C857A969D2ADE"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -17.5d
+			y: -15.0d
+			dependencies: [
+				"69D7B67789B7A09E"
+				"4A600FEBAE2AA587"
+			]
+			id: "4DC239EC38E0D9EA"
+			tasks: [{
+				id: "1911A18FCAFF8D3B"
+				type: "item"
+				item: {
+					id: "ae2things:disk_drive_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -19.5d
+			y: -15.0d
+			dependencies: [
+				"69D7B67789B7A09E"
+				"34DC850731F46C1F"
+			]
+			id: "0DB3100956DD1DE6"
+			tasks: [{
+				id: "7C4B4B9AD21F679A"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -16.0d
+			dependencies: [
+				"52FE39810192E35B"
+				"1B5111E5DCB5B850"
+			]
+			id: "57C4492B1E52FBAB"
+			tasks: [{
+				id: "1A3348DF702414E6"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: -16.0d
+			dependencies: [
+				"52FE39810192E35B"
+				"5E954EA01AFEADE0"
+			]
+			id: "2775BB02A23DA334"
+			tasks: [{
+				id: "0D36247A230472F5"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: -16.0d
+			dependencies: [
+				"52FE39810192E35B"
+				"4DC239EC38E0D9EA"
+			]
+			id: "22D7A15F70A885D8"
+			tasks: [{
+				id: "7F8BAA6396672DB1"
+				type: "item"
+				item: {
+					id: "ae2things:disk_drive_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -18.5d
+			y: -16.0d
+			dependencies: [
+				"52FE39810192E35B"
+				"0DB3100956DD1DE6"
+			]
+			id: "3C6782218777AFA7"
+			tasks: [{
+				id: "393E67E65307EE32"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: -17.0d
+			dependencies: [
+				"4523B7D6DF96BFD5"
+				"57C4492B1E52FBAB"
+			]
+			id: "1D765DA2E4DEC1BE"
+			tasks: [{
+				id: "1DA4B9C4DC263B2B"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: -17.0d
+			dependencies: [
+				"4523B7D6DF96BFD5"
+				"2775BB02A23DA334"
+			]
+			id: "3DD6D975A7B96C75"
+			tasks: [{
+				id: "439DF032225F3AA8"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -17.5d
+			y: -17.0d
+			dependencies: [
+				"4523B7D6DF96BFD5"
+				"22D7A15F70A885D8"
+			]
+			id: "7AD9A4572B3F030A"
+			tasks: [{
+				id: "1F14F03A137AC3F5"
+				type: "item"
+				item: {
+					id: "ae2things:disk_drive_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -19.5d
+			y: -17.0d
+			dependencies: [
+				"4523B7D6DF96BFD5"
+				"3C6782218777AFA7"
+			]
+			id: "52CDBD334F314107"
+			tasks: [{
+				id: "07123AADAA072627"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -18.0d
+			dependencies: [
+				"4FE31792D47B9476"
+				"1D765DA2E4DEC1BE"
+			]
+			id: "3B81EDC4A259088F"
+			tasks: [{
+				id: "33F42A59D898193A"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: -18.0d
+			dependencies: [
+				"4FE31792D47B9476"
+				"3DD6D975A7B96C75"
+			]
+			id: "23DD0E8916681FA6"
+			tasks: [{
+				id: "24CAE3D4E78A1069"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -18.5d
+			y: -18.0d
+			dependencies: [
+				"4FE31792D47B9476"
+				"52CDBD334F314107"
+			]
+			id: "04175E9C3E74B599"
+			tasks: [{
+				id: "2F04AA95F8FB5B7C"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: -18.0d
+			dependencies: [
+				"4FE31792D47B9476"
+				"7AD9A4572B3F030A"
+			]
+			id: "7A51E1E0E6AA296E"
+			tasks: [{
+				id: "2D7D727C197EC565"
+				type: "item"
+				item: {
+					id: "ae2things:disk_drive_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: -14.0d
+			dependencies: [
+				"69971514A660026F"
+				"61F240AC5D560CC9"
+			]
+			id: "0B8CBF205EE295EE"
+			tasks: [{
+				id: "01C9F552CAD95119"
+				type: "item"
+				item: "ae2:1k_crafting_storage"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -15.0d
+			dependencies: [
+				"0B8CBF205EE295EE"
+				"69D7B67789B7A09E"
+			]
+			id: "716A6EFE15FE3E62"
+			tasks: [{
+				id: "312B38D7E704565D"
+				type: "item"
+				item: "ae2:4k_crafting_storage"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -16.0d
+			dependencies: [
+				"716A6EFE15FE3E62"
+				"52FE39810192E35B"
+			]
+			id: "1AFD21C2FB43D8E2"
+			tasks: [{
+				id: "676EA1665C527C0D"
+				type: "item"
+				item: "ae2:16k_crafting_storage"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -17.0d
+			dependencies: [
+				"1AFD21C2FB43D8E2"
+				"4523B7D6DF96BFD5"
+			]
+			id: "067A8071D60C97FE"
+			tasks: [{
+				id: "379591E8F3CEC288"
+				type: "item"
+				item: "ae2:64k_crafting_storage"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -18.0d
+			dependencies: [
+				"067A8071D60C97FE"
+				"4FE31792D47B9476"
+			]
+			id: "6B41DE40FEF2CD63"
+			tasks: [{
+				id: "3932F198932FBB28"
+				type: "item"
+				item: "ae2:256k_crafting_storage"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -14.0d
+			dependencies: ["0177761AAF83A099"]
+			id: "61F240AC5D560CC9"
+			tasks: [{
+				id: "531F4B2DBC8D3AEE"
+				type: "item"
+				item: "ae2:crafting_unit"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -15.5d
+			dependencies: ["61F240AC5D560CC9"]
+			id: "5197414636FCD122"
+			tasks: [{
+				id: "2E50C90EB57EF5D6"
+				type: "item"
+				item: "ae2:crafting_accelerator"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -15.0d
+			dependencies: ["61F240AC5D560CC9"]
+			id: "08A73BA2A6F7EC54"
+			tasks: [{
+				id: "1E15B165D68A4D2D"
+				type: "item"
+				item: "ae2:crafting_monitor"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -13.0d
+			dependencies: ["0177761AAF83A099"]
+			id: "75FC2CC486468F28"
+			tasks: [{
+				id: "484CC0898E73FCC7"
+				type: "item"
+				item: "ae2:pattern_provider"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -14.0d
+			dependencies: ["75FC2CC486468F28"]
+			id: "70DECCEB18960861"
+			tasks: [{
+				id: "4BBA727D6C6BC028"
+				type: "item"
+				item: "ae2:molecular_assembler"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -12.0d
+			dependencies: ["0177761AAF83A099"]
+			id: "0F48BCFAF6FC5E92"
+			tasks: [{
+				id: "2B2E5F062DBE8CB0"
+				type: "item"
+				item: "ae2:interface"
+			}]
+		}
+		{
+			title: "Infinite Certus Quartz"
+			x: -9.5d
+			y: -6.5d
+			dependencies: ["05045FEA09CEC836"]
+			id: "3EFFAD31A982CB11"
+			tasks: [{
+				id: "5B281172C935FDC5"
+				type: "item"
+				item: "ae2:certus_crystal_seed"
+			}]
+		}
+		{
+			title: "Infinite Fluix"
+			x: -8.0d
+			y: -7.5d
+			dependencies: ["210231A12D01F514"]
+			id: "160927DFE749D688"
+			tasks: [{
+				id: "1504FDF210423779"
+				type: "item"
+				item: "ae2:fluix_crystal_seed"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -7.5d
+			id: "01752382B32AD494"
+			tasks: [{
+				id: "6FC04EAB580E2F03"
+				type: "item"
+				item: "ae2:quartz_fiber"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -8.5d
+			dependencies: ["01752382B32AD494"]
+			id: "59B0F3F9A53775F5"
+			tasks: [{
+				id: "69434CFB5620942E"
+				type: "item"
+				item: "ae2:fluix_glass_cable"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -9.5d
+			dependencies: ["59B0F3F9A53775F5"]
+			id: "787CCA518F70DB67"
+			tasks: [{
+				id: "3DAB469B5DAEED20"
+				type: "item"
+				item: "ae2:fluix_covered_cable"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -10.5d
+			dependencies: ["787CCA518F70DB67"]
+			id: "6EAFF0FB28F2CBB5"
+			tasks: [{
+				id: "7D694FEE58A68642"
+				type: "item"
+				item: "ae2:fluix_smart_cable"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -11.5d
+			dependencies: ["6EAFF0FB28F2CBB5"]
+			id: "7830E9E750830478"
+			tasks: [{
+				id: "6EFD7A6B5F37694F"
+				type: "item"
+				item: "ae2:fluix_covered_dense_cable"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -12.5d
+			dependencies: ["7830E9E750830478"]
+			id: "698A021706381142"
+			tasks: [{
+				id: "4F4C90278FBE465F"
+				type: "item"
+				item: "ae2:fluix_smart_dense_cable"
+			}]
+		}
+	]
+}

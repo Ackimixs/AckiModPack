@@ -1,0 +1,11 @@
+{
+	id: "7E0177C993E8E196"
+	group: ""
+	order_index: 2
+	filename: "tinker"
+	title: "Tinker"
+	icon: "tconstruct:smeltery_controller"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

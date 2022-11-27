@@ -35,7 +35,7 @@
   "entity.chickens.crusteel_chicken": "Le Poulet de Crusteel",
   "entity.chickens.yokel_chicken": "Le Poulet de Yokel",
   "entity.chickens.wavy_chicken": "Le Poulet de Wavy",
-  "entity.chickens.boalian_chicken": "Le Poulet de Baolian",
+  "entity.chickens.baolian_chicken": "Le Poulet de Baolian",
   "entity.chickens.galu_chicken": "Le Poulet de Galu",
   "entity.chickens.magma_steel_chicken": "Le Poulet de Magma Steel",
   "entity.chickens.cyber_steel_chicken": "Le Poulet de Cyber Steel",
@@ -68,5 +68,7 @@
   "entity.chickens.niotic_crystal_chicken": "Le Poulet de Niotic Crystal",
   "entity.chickens.nitro_crystal_chicken": "Le Poulet de Nitro Crystal",
   "entity.chickens.pink_slime_chicken": "Le Poulet de Pink Slime",
-  "entity.chickens.ultimate_chicken": "La Ultima Pouleta"
+  "entity.chickens.ultimate_chicken": "La Ultima Pouleta",
+  "entity.chickens.dragon_chicken": "Le Poulet de Dragon",
+  "entity.chickens.nether_star_chicken": "Le Poulet de Nether Star"
 }

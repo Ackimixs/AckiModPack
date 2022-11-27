@@ -8,7 +8,7 @@ onEvent('ui.main_menu', event => {
 
 	  //Main message
 	  ui.label(l => {
-		l.name = Text.aqua('Ackimixs modded')
+		l.name = Text.aqua('AckISEN')
 		l.height = 24
 		l.x = ui.width / 2 - (l.width / 2) - 50
 		l.y = ui.height / 2 - (l.height / 2) - 50

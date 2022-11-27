@@ -1,0 +1,2285 @@
+{
+	id: "541C98447280E19C"
+	group: ""
+	order_index: 5
+	filename: "chicken"
+	title: "chicken"
+	icon: {
+		id: "chickens:chicken_item"
+		Count: 1b
+		tag: {
+			ChickenType: {
+				id: "chickens:obsidian_chicken"
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			x: -5.5d
+			y: -5.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "293F0B71195CD190"
+			tasks: [{
+				id: "3588C5213FDD1B81"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:green_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "750F64A714AD3FB2"
+			tasks: [{
+				id: "2BCF506AFEF67745"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:magma_steel_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "5314527A53D7ED10"
+			tasks: [{
+				id: "7241ADA5880BA7A1"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:duralumin_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "46726547DDE753A7"
+			tasks: [{
+				id: "3143CA9A71C1DAA5"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:orange_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "2E60260CCD342F22"
+			tasks: [{
+				id: "04E5D812706328E3"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:qivium_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "7E4796B27B4C4F16"
+			tasks: [{
+				id: "6C0E55233F1490C6"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:lead_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "0E49CB1242A17C82"
+			tasks: [{
+				id: "4AA238E6409A702A"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:slimesteel_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "213E784A7B6A8261"
+			tasks: [{
+				id: "4F4FAFB47EC227EE"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:dragon_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "224D58B537A42FE1"
+			tasks: [{
+				id: "0ACDFA01AAD78F21"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:snowball_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "3CA88C73E5F603D5"
+			tasks: [{
+				id: "2DD3FCB3B0E5A819"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:brass_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "3BCC896DA35BA96A"
+			tasks: [{
+				id: "26FD7AC6F3A2766F"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:zinc_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "6C0347E6191262E3"
+			tasks: [{
+				id: "466A893D843A5F35"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:light_blue_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "7B5EFDFF21BF5AF4"
+			tasks: [{
+				id: "6394C2CA65F90063"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:knightslime_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "3FEB792D4AC68863"
+			tasks: [{
+				id: "7C6B93FAE37C8F17"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:felsteel_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "49C87F1252B2E188"
+			tasks: [{
+				id: "073E9DB8C4636541"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:glass_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "054AB1150CDC7B08"
+			tasks: [{
+				id: "0BB542D3BE84D47A"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:calorite_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "6607E4A25A67D03C"
+			tasks: [{
+				id: "047BAE9CDCCBA650"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:ostrum_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "195825BE03FF2FC9"
+			tasks: [{
+				id: "36F89B5C1F6123D0"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:shadow_steel_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "226CB84F27C589ED"
+			tasks: [{
+				id: "62037F810002C318"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:ghast_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "6841AC18D048DB12"
+			tasks: [{
+				id: "6E9A9EFD1489001A"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:refined_radiance_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "6DEC4C7E38B838FB"
+			tasks: [{
+				id: "3D27A233BE038262"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:crusteel_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "0854227965509D0F"
+			tasks: [{
+				id: "34AD582A7F124D73"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:wavy_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "2761A4B31F710E12"
+			tasks: [{
+				id: "19977E092BBC5895"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:energized_steel_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "196C58B1173FB452"
+			tasks: [{
+				id: "08AF185C53FA8825"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:gunpowder_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "664E24BFF8C0590F"
+			tasks: [{
+				id: "5D0F21F03A6CF1F4"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:amethyst_bronze_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "6792ED6AEC0BA159"
+			tasks: [{
+				id: "31B96E29D77FF9DF"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:electrical_copper_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "4E6BFD84F13CE575"
+			tasks: [{
+				id: "1D04C3C7A210886E"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:uranium_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "185B2C3DDC4EEDB5"
+			tasks: [{
+				id: "10697ADFED212E84"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:netherite_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "05B7E16CAACCD715"
+			tasks: [{
+				id: "6FEE52DADFAB50ED"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:blue_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "3F7A018CB02ED9EE"
+			tasks: [{
+				id: "45F22A18218B2B6A"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:magma_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "5E3A2AF138A60C65"
+			tasks: [{
+				id: "41FEB95F34B85ED9"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:obsidian_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "044A3D712A1AE2BC"
+			tasks: [{
+				id: "7110984BD0B2FE9E"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:yellow_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "64638192579C6096"
+			tasks: [{
+				id: "44B9CDF736207795"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:glowstone_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "15183062FCCB75FC"
+			tasks: [{
+				id: "5A1E2DDB17D66835"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:quartz_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "7960F5E05E2D30F2"
+			tasks: [{
+				id: "1B84F53098E7D5FE"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:blazing_crystal_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "2788092295C605A8"
+			tasks: [{
+				id: "0A752546A881EB25"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:blazing_copper_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "77D7E1BFF65AEFC7"
+			tasks: [{
+				id: "53B360B8A9EA2F88"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:pink_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "444AC80095595D16"
+			tasks: [{
+				id: "40856C623271BFC4"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:hepatizon_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "6AEEB282E998A2B2"
+			tasks: [{
+				id: "37CE90BAF8D8BD88"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:log_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "04D065AA81739D29"
+			tasks: [{
+				id: "5F0C9890A2BB0BCA"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:sky_stone_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "304AD1B0786581D7"
+			tasks: [{
+				id: "246D12D0BC424D56"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:water_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "5E8E7446F199BC24"
+			tasks: [{
+				id: "1331A2D3BC2D35D2"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:ultimate_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "065014639824DE30"
+			tasks: [{
+				id: "4D1AB964F944A5BC"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:lavium_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "1528B58AA816F0A5"
+			tasks: [{
+				id: "7A54C42A8C64F759"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:certus_quartz_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "57A8E216F011636D"
+			tasks: [{
+				id: "440095AFA25328AA"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:refined_obsidian_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "4327FC368B477718"
+			tasks: [{
+				id: "380024D66B68F671"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:osmium_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "40F75504790160F1"
+			tasks: [{
+				id: "32F7C176308B11B1"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:emerald_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "76B26AE29A4C3925"
+			tasks: [{
+				id: "4F2730D5A629CBCD"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:baolian_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "166BD9A499EC7219"
+			tasks: [{
+				id: "55FEB822858CFCCB"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:fairy_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "317FB565F09111AC"
+			tasks: [{
+				id: "10A7B938CA50CBDF"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:brown_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "5170F1ABFE9BE8EC"
+			tasks: [{
+				id: "7ADA24BC86929BD7"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:rose_gold_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "702C653E5B3DE277"
+			tasks: [{
+				id: "5015ADA7D43753BB"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:silver_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "019F5CE07351FA49"
+			tasks: [{
+				id: "675269C9F70696BD"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:lava_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "7BBEB3EFD7B54A68"
+			tasks: [{
+				id: "7B11CA30E0EDB990"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:sand_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "294453E83883B8F8"
+			tasks: [{
+				id: "5CC644AF0582F954"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:steel_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "00F00091CF6CAD00"
+			tasks: [{
+				id: "35194E22DFF72F2B"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:uraninite_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "1EF60BAAF3341D3F"
+			tasks: [{
+				id: "020996C9B0A2FE24"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:galu_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "2C1F754090EDA9DA"
+			tasks: [{
+				id: "47C54723394ED923"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:cyber_steel_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "5EE82EDABD73691D"
+			tasks: [{
+				id: "215ECC5965064AE4"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:pcrystal_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "63E3DCA997BF042E"
+			tasks: [{
+				id: "7311C7A9D73EA004"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:string_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "072C917DA7997EE1"
+			tasks: [{
+				id: "6498A84EF3232163"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:gausum_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "44F2A7836EB2FA51"
+			tasks: [{
+				id: "221D679786890360"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:bronze_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "53DC25095BDFE7C0"
+			tasks: [{
+				id: "415C33578CD447A9"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:invar_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "1D2DDDF05626F2CE"
+			tasks: [{
+				id: "3DF45D3F872ECFE7"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:cyan_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "0B9C856A457E4838"
+			tasks: [{
+				id: "5E4945738D282BD1"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:white_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "098CD9A09F1137DD"
+			tasks: [{
+				id: "06A9F6004BEDA90F"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:coal_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "50D516F51F4D7D1E"
+			tasks: [{
+				id: "5F860BCFD94A429B"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:netherwart_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "4D5C321125FE96F9"
+			tasks: [{
+				id: "66F218E18C45B71C"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:ender_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "149B0566C21C03AC"
+			tasks: [{
+				id: "30C9A38AD725B9FF"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:niotic_crystal_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "1E002B45C1D7804C"
+			tasks: [{
+				id: "2118F4F1F28FD1A9"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:yokel_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "01D2F5C1E2AFF9C0"
+			tasks: [{
+				id: "3111E4261D4EF107"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:ventium_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "2BC5A949D6AEF5CC"
+			tasks: [{
+				id: "105FF693A006FAD3"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:red_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "62CC1141DDE53125"
+			tasks: [{
+				id: "02C7BFBBA8DA720F"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:magenta_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "375E0321D55BFCD3"
+			tasks: [{
+				id: "067D6E8B66A45BE1"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:cfouche_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "15465B45078C54A5"
+			tasks: [{
+				id: "36451544F21CB14C"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:constantan_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "0C388D349496A6B0"
+			tasks: [{
+				id: "14982F18F0E8C0C5"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:nether_star_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "5150DCF52E475F67"
+			tasks: [{
+				id: "3C59172BB89670B1"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:soulsteel_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "605C9F937DCBF1D0"
+			tasks: [{
+				id: "301C7E284BD1A633"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:flint_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "1EE3115F2BA60971"
+			tasks: [{
+				id: "0F5FE09BE26A258A"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:blaze_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "27274E24C9B20F83"
+			tasks: [{
+				id: "3ADD0C73B9673E39"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:refined_glowstone_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "02BD56D028FB1530"
+			tasks: [{
+				id: "0435DEF127C0807A"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:andesite_alloy_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "4D32FAAFE8E090BD"
+			tasks: [{
+				id: "3303BC6526BAB977"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:nickel_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "6AE1383007C4A5AA"
+			tasks: [{
+				id: "48F35F668FA28837"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:falsite_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "7E781E556F9B0A57"
+			tasks: [{
+				id: "7682DC0608024405"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:durasteel_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "4B41EBBB80963DB6"
+			tasks: [{
+				id: "767EB806912125A5"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:soulsand_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "199E2D2A14FF577B"
+			tasks: [{
+				id: "482E508A06E9FC7B"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:pig_iron_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "67077F384604DCC2"
+			tasks: [{
+				id: "3145833A9D059BD7"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:desh_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "53062550468BFB96"
+			tasks: [{
+				id: "0C24DD76BCDE7779"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:lime_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "38F94404093A6FB5"
+			tasks: [{
+				id: "2B9DFEB3FEC10115"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:nitro_crystal_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "4D5B5866A6538D81"
+			tasks: [{
+				id: "4D84951BE4F42B56"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:horizonite_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "1667A6AF38A51E85"
+			tasks: [{
+				id: "4685F0A13E5766DB"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:light_gray_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "3246E8D8436886AC"
+			tasks: [{
+				id: "001DE83B85EB02D6"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:queens_slime_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "223B1AFDCCB0493B"
+			tasks: [{
+				id: "420816B32ECC4FED"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:pshard_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "53CDE3CE1303A50D"
+			tasks: [{
+				id: "745529CDBC613DD3"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:gray_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "1FC59B34FB3F439F"
+			tasks: [{
+				id: "071FCFA6EEE021B1"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:chorus_metal_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "684DE33C64D526B2"
+			tasks: [{
+				id: "26E4A421C18C667A"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:tin_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "6A02725C1A115248"
+			tasks: [{
+				id: "49D67EA720896956"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:fluix_steel_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "29CBF8D4F98EA608"
+			tasks: [{
+				id: "49950D3E482BB689"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:silicon_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "46E717206C494644"
+			tasks: [{
+				id: "61E8A3FC043C1727"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:aluminum_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "57619FB443D53BB5"
+			tasks: [{
+				id: "49141ABD7FF9DB56"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:smart_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "24B8AB0A272BEAA6"
+			tasks: [{
+				id: "352E5D5C0CBB15CE"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:redstone_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "57F9B156F099FED5"
+			tasks: [{
+				id: "4450A4DEEDE9C7E6"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:manyullyn_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "7F9EA35CFCA07FAD"
+			tasks: [{
+				id: "3921BCCC4BE0694A"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:slime_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "1496D5D28EB6737C"
+			tasks: [{
+				id: "057F33C8A9FA0572"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:purple_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "6D667B0FFBD4E147"
+			tasks: [{
+				id: "2B3BBB8BA4205239"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:cobalt_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "2053FEFE10039362"
+			tasks: [{
+				id: "3CB423ADE20D6686"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:signalum_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "129D86031E4CC388"
+			tasks: [{
+				id: "3AA445B7C5A0DDFD"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:pink_slime_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "3DC1B9B998230C34"
+			tasks: [{
+				id: "004FD5C32ECF810B"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:black_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "21CF4A5D512417EF"
+			tasks: [{
+				id: "014DCFE0327A01FD"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:gold_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "6D0341F25539FF50"
+			tasks: [{
+				id: "18B57CF9CA6F0220"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:leather_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "5F2360362B082E35"
+			tasks: [{
+				id: "489D511E74EB00EB"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:kepu_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "735F9B54D3AFA093"
+			tasks: [{
+				id: "586A8F624E646438"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:iron_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "3619E6D898408D30"
+			tasks: [{
+				id: "7F5CD4DC35FF834C"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:clay_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "257B8EDB03A97227"
+			tasks: [{
+				id: "13F2F93C69B4FEF3"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:hellforged_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "5C1DDE636DCB25A3"
+			tasks: [{
+				id: "5D5B8C63EB031F17"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:fluix_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "563DA80DA6623782"
+			tasks: [{
+				id: "7A8A9F45A228A7FC"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:diamond_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			dependencies: ["72E370F7C77F0044"]
+			id: "141496C1F0EE3556"
+			tasks: [{
+				id: "70BFC61A3D67D9EC"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:enderium_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.5d
+			id: "7C74DC4D828BC757"
+			tasks: [{
+				id: "7C0E5BFAA4172499"
+				type: "item"
+				item: "chickens:catcher"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -7.0d
+			id: "6302B660E7B65EBF"
+			tasks: [{
+				id: "522289FB63B25B91"
+				type: "item"
+				item: "kubejs:chicken_exoskeleton"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			dependencies: ["6302B660E7B65EBF"]
+			id: "7072183ABBDF4007"
+			tasks: [{
+				id: "0451FD76CE5AC321"
+				type: "item"
+				item: "kubejs:chicken"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			dependencies: ["7072183ABBDF4007"]
+			id: "72E370F7C77F0044"
+			tasks: [{
+				id: "20E3290DA5D129D2"
+				type: "item"
+				item: "kubejs:living_chicken"
+			}]
+		}
+	]
+}

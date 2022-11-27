@@ -1,0 +1,11 @@
+{
+	id: "5E15F0204A7C9892"
+	group: ""
+	order_index: 3
+	filename: "magic"
+	title: "Magic"
+	icon: "botania:creative_pool"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

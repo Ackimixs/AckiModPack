@@ -123,7 +123,9 @@ onEvent('recipes', event => {
         [{ "item": 'powah:crystal_blazing' }, "blazing_crystal"],
         [{ "item": 'powah:steel_energized' }, "energized_steel"],
         [{ "item": "powah:crystal_nitro" }, "crystal_nitro"],
-        [{ "item": "powah:uraninite" }, "uraninite"]
+        [{ "item": "powah:uraninite" }, "uraninite"],
+        [{"item": "minecraft:dragon_egg"}, "dragon"],
+        [{"item": "minecraft:nether_star"}, "nether"]
 
     ]
 
