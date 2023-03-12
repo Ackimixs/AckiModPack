@@ -35,12 +35,6 @@
 				type: "checkmark"
 				title: "Quest"
 			}]
-			rewards: [{
-				id: "4F90902E002C5AF0"
-				type: "command"
-				command: "/say Hi, @p!"
-				player_command: false
-			}]
 		}
 	]
 }

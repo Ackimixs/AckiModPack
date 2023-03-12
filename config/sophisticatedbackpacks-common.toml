@@ -11,6 +11,8 @@
 	allowOpeningOtherPlayerBackpacks = true
 	#Allows disabling item display settings. Primarily in cases where custom backpack model doesn't support showing the item. (Requires game restart to take effect)
 	itemDisplayDisabled = false
+	#List of blocks that inventory interaction upgrades can't interact with - e.g. "minecraft:shulker_box"
+	noInteractionBlocks = []
 
 	#Leather Backpack Settings
 	[common.leatherBackpack]
@@ -408,4 +410,13 @@
 		slownessLevelsPerAdditionalBackpack = 1.0
 		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
 		onlyWornBackpackTriggersUpgrades = false
+
+	#Advanced Refill Upgrade Settings
+	[common.advancedRefillUpgrade]
+		#Number of Advanced Refill Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 12
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
 

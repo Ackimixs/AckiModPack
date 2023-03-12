@@ -2,15 +2,15 @@
 
 onEvent('ui.main_menu', event => {
 	event.replace(ui => {
-
-	  ui.background('kubejs:ui/space.png')
+	  ui.tilingBackground('minecraft:textures/block/black_terracotta.png', 256)
       ui.minecraftLogo(40)
+	
 
 	  //Main message
 	  ui.label(l => {
 		l.name = Text.aqua('AckISEN')
 		l.height = 24
-		l.x = ui.width / 2 - (l.width / 2) - 50
+		l.x = ui.width / 2 - (l.width / 2) - 25
 		l.y = ui.height / 2 - (l.height / 2) - 50
 		l.action = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 	  })

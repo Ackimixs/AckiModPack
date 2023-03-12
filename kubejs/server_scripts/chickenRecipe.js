@@ -201,6 +201,20 @@ onEvent('recipes', event => {
                         {
                             "item": "kubejs:uncompleted_chicken"
                         },
+                        ingotBase
+                    ],
+                    "results": [
+                        {
+                            "item": "kubejs:uncompleted_chicken"
+                        }
+                    ]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients": [
+                        {
+                            "item": "kubejs:uncompleted_chicken"
+                        },
                         {
                             "item": 'advgenerators:turbine_rotor_tier5'
                         }
@@ -238,20 +252,6 @@ onEvent('recipes', event => {
                             "nbt": {},
                             "amount": 500
                         }
-                    ],
-                    "results": [
-                        {
-                            "item": "kubejs:uncompleted_chicken"
-                        }
-                    ]
-                },
-                {
-                    "type": "create:deploying",
-                    "ingredients": [
-                        {
-                            "item": "kubejs:uncompleted_chicken"
-                        },
-                        ingotBase
                     ],
                     "results": [
                         {
